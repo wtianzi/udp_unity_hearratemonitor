@@ -26,13 +26,12 @@ message time: 0.1s (can be set using function sleep(time per frame))
 ```
 ### 2. ECGOSCMessageReceiver.cs
 The script should be attached to any object in the scene. If there is an error message related to "transporttype missing", change the unity project setting/player/scripting runtime version into ".NET 3.5 Equivalent". 
-
 * setup: unity(c#)
 * initial parameters: port: 5005
-* Received data location in code: 
-make changes in function private void ShowMessage(OscPacket packet)
+* Receiving code location: 
 ```
 line 121: ((OscMessage)packet).Address 
+//in function private void ShowMessage(OscPacket packet)
 ```
 
 Enjoy:)
