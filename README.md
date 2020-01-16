@@ -10,9 +10,9 @@ In unity (in console logging)
 
 ![Unity](UDP/udp_receive_unity.png)
 
-### The "./UDP" folder includes two files:
+## The "./UDP" folder includes two files:
 
-##1. UDPSend.py
+### 1. UDPSend.py
 The script includes function of sending data through UDP using python-osc package. 
 * setup: python(3.5+), using command: pip install python-osc .
 For more information: [click](https://github.com/attwad/python-osc).
