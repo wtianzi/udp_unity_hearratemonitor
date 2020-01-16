@@ -4,13 +4,13 @@ A udp client in unity to receive and display heart rate data
 ## Update on 1/16/2020
 In command line (run python)
 
-![Python](UDP/python_send.png)
+![Python](python_send.png)
 
 In unity (in console logging)
 
-![Unity](UDP/udp_receive_unity.png)
+![Unity](udp_receive_unity.png)
 
-## The ["./UDP"](UDP/) folder includes two files:
+## This folder includes two files:
 
 ### 1. UDPSend.py
 The script includes function of sending data through UDP using python-osc package. 
