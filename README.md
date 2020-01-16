@@ -10,7 +10,7 @@ In unity (in console logging)
 
 ![Unity](UDP/udp_receive_unity.png)
 
-##The "./UDP" folder includes two files:
+### The "./UDP" folder includes two files:
 
 ##1. UDPSend.py
 The script includes function of sending data through UDP using python-osc package. 
@@ -24,7 +24,7 @@ message format: /(integer,integer,float)
 loop: 100
 message time: 0.1s (can be set using function sleep(time per frame))
 ```
-##2. ECGOSCMessageReceiver.cs
+### 2. ECGOSCMessageReceiver.cs
 The script should be attached to any object in the scene. If there is an error message related to "transporttype missing", change the unity project setting/player/scripting runtime version into ".NET 3.5 Equivalent". 
 
 * setup: unity(c#)
