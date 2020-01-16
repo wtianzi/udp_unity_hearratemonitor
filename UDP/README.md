@@ -24,7 +24,7 @@ message format: /(integer,integer,float)
 loop: 100
 message time: 0.1s (can be set using function sleep(time per frame))
 ```
-### 2. ECGOSCMessageReceiver.cs (included in the package) and UDP_UNITY_RECEIVER.unitypackage
+### 2. UDP_UNITY_RECEIVER.unitypackage and ECGOSCMessageReceiver.cs (included in the package)
 The script should be reattached to any object in the target scene. If there is an error message related to "transporttype missing", change the unity project setting/player/scripting runtime version into ".NET 3.5 Equivalent". 
 * setup: import UDP_UNITY_RECEIVER.unitypackage into scenes in unity(c#)
 * attach the ECGOSCMessageReceiver.cs to an object in the target scene
