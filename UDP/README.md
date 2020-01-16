@@ -24,9 +24,9 @@ message format: /(integer,integer,float)
 loop: 100
 message time: 0.1s (can be set using function sleep(time per frame))
 ```
-### 2. ECGOSCMessageReceiver.cs and HeartrateDataNetwork(UDP).unitypackage
+### 2. ECGOSCMessageReceiver.cs (included in the package) and UDP_UNITY_RECEIVER.unitypackage
 The script should be reattached to any object in the target scene. If there is an error message related to "transporttype missing", change the unity project setting/player/scripting runtime version into ".NET 3.5 Equivalent". 
-* setup: import HeartrateDataNetwork(UDP).unitypackage into scenes in unity(c#)
+* setup: import UDP_UNITY_RECEIVER.unitypackage into scenes in unity(c#)
 * attach the ECGOSCMessageReceiver.cs to an object in the target scene
 * initial parameters: port: 5005
 * Receiving code location: 
